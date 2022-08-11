@@ -1,11 +1,12 @@
 function $(selector) {
-  return document.querySelector(selector);
+    return document.querySelector(selector);
 }
 
 function $$(selector) {
-  return document.querySelectorAll(selector);
+    return document.querySelectorAll(selector);
 }
 
 function $$$(tagName) {
-  return document.createElement(tagName);
+    return document.createElement(tagName);
 }
+var baseURL = '/talk/';
